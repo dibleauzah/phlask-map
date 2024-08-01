@@ -1,0 +1,16 @@
+json
+{
+    "version": "2.0.0",
+    "tasks": [
+    {
+        "label": "Welcome Message",
+        "type": "shell",
+        "command": "python welcome.py",
+        "group": {
+        "kind": "build",
+        "isDefault": true
+        },
+        "problemMatcher": []
+        }
+    ]
+}
